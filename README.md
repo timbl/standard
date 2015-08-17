@@ -30,13 +30,11 @@ npm install standard
 
 ## Rules
 
-- **2 spaces** – for indentation
-- **Single quotes for strings** – except to avoid escaping
+- **4 spaces** – for indentation
+- **Single quotes for strings** – when they are code eg 'color: blue'
+- **Double quotes for strings** – when they are natural language and need I18n, eg "Error you have run out of space"
 - **No unused variables** – this one catches *tons* of bugs!
-- **No semicolons** – [It's][1] [fine.][2] [Really!][3]
-- **Never start a line with `(` or `[`**
-  - This is the **only** gotcha with omitting semicolons – *automatically checked for you!*
-  - [More details][4]
+- **Semicolons** – [It's][1] [fine.][2] [Really!][3]
 - **Space after keywords** `if (condition) { ... }`
 - **Space after function name** `function name (arg) { ... }`
 - Name the context variable `self` – `var self = this`
@@ -70,13 +68,13 @@ let people know that your code is using the standard style.
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 ```markdown
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/timbl/standard)
 ```
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/timbl/standard)
 
 ```markdown
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/timbl/standard)
 ```
 
 ## Usage
@@ -185,7 +183,7 @@ over defending their own opinions.
 ### But this isn't a real web standard!
 
 Of course it's not! The style laid out here is not affiliated with any official web
-standards groups, which is why this repo is called `feross/standard` and not
+standards groups, which is why this repo is called `timbl/standard` and not
 `ECMA/standard`.
 
 The word "standard" has more meanings than just "web standard" :-) For example:
@@ -279,7 +277,7 @@ Or, disable the `"no-use-before-define"` rule for **multiple lines**:
 ### Can you make rule X configurable?
 
 No. Use `eslint` and
-[this shareable config](https://github.com/feross/eslint-config-standard) if you want to
+[this shareable config](https://github.com/timbl/eslint-config-standard) if you want to
 configure hundreds of options individually.
 
 Pro tip: Just use `standard` and move on. There are actual real problems that you could
@@ -324,4 +322,4 @@ PreCommit:
 
 ## License
 
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
+MIT. Copyright (c) [feross Aboukhadijeh](http://feross.org). and timbl.com

@@ -31,6 +31,7 @@ npm install standard
 ## Rules
 
 - **4 spaces** – for indentation
+- **Lines no longer than 79 columns** – even in comments
 - **Single quotes for strings** – when they are code eg 'color: blue'
 - **Double quotes for strings** – when they are natural language and need I18n, eg "Error you have run out of space"
 - **No unused variables** – this one catches *tons* of bugs!
